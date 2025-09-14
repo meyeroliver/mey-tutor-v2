@@ -15,6 +15,7 @@ import {
   Send,
   Users,
 } from "lucide-react";
+import { toast } from "sonner";
 
 const Contact = () => {
   const contactInfo = [
@@ -174,7 +175,10 @@ const Contact = () => {
                       />
                     </div>
 
-                    <Button type="submit" className="w-full">
+                    <Button
+                      onClick={() => toast.success("Message sent")}
+                      className="w-full"
+                    >
                       Send Message
                     </Button>
                   </form>
