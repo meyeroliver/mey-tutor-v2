@@ -58,6 +58,9 @@ const Navigation = () => {
               variant="ghost"
               size="icon"
               onClick={() => setIsOpen(!isOpen)}
+              aria-label={
+                isOpen ? "Close navigation menu" : "Open navigation menu"
+              }
             >
               {isOpen ? (
                 <X className="h-6 w-6" />
