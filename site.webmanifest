@@ -1,0 +1,26 @@
+{
+  "name": "Mey Tutor",
+  "short_name": "MeyTutor",
+  "description": "Physics and mathematics tutoring service for Grade 10-12 students",
+  "icons": [
+    {
+      "src": "/icons/svg/meytutor-logo-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icons/png/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/png/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#22C55E",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/"
+}
